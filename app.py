@@ -127,8 +127,6 @@ show_all_classes = st.sidebar.checkbox("Show all class probabilities", False)
 
 st.sidebar.markdown("---")
 st.sidebar.header("📊 System Info")
-st.sidebar.info(f"TensorFlow: {tf.__version__}")
-st.sidebar.info(f"NumPy: {np.__version__}")
 st.sidebar.info(f"Classes: {len(classes)}")
 st.sidebar.info(f"Image Size: {IMG_SIZE}x{IMG_SIZE}")
 
