@@ -99,7 +99,7 @@ def load_models():
         if os.path.exists(path):
             try:
                 resnet_model = load_model(path, compile=False)
-                st.sidebar.success(f"✓ ResNet50 loaded from {path}")
+          
                 break
             except Exception as e:
                 continue
@@ -108,7 +108,7 @@ def load_models():
         if os.path.exists(path):
             try:
                 mobile_model = load_model(path, compile=False)
-                st.sidebar.success(f"✓ MobileNetV2 loaded from {path}")
+              
                 break
             except Exception as e:
                 continue
